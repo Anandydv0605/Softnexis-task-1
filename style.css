@@ -6,8 +6,11 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#e3e6e9;
-color:#333;
+    background: #e3e6e9;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -43,7 +46,7 @@ transition:.3s;
 }
 
 nav ul li a:hover{
-color:#00adb5;
+color:#3de9d5;
 }
 
 .hero{
@@ -60,7 +63,7 @@ font-size:55px;
 }
 
 .hero span{
-color:#00adb5;
+color:hsl(0, 58%, 49%);
 }
 
 .hero p{
@@ -73,7 +76,7 @@ line-height:1.6;
 .btn{
 display:inline-block;
 padding:12px 30px;
-background:#00adb5;
+background:#021213;
 color:white;
 text-decoration:none;
 border-radius:6px;
@@ -94,7 +97,7 @@ margin-top:30px;
 }
 
 .skills div{
-background:#00adb5;
+background:#041112;
 color:white;
 padding:20px;
 text-align:center;
@@ -124,11 +127,11 @@ font-size:16px;
 }
 
 footer{
-background:#222;
+background:#130e0e;
 color:white;
 text-align:center;
 padding:20px;
-margin-top:50px;
+margin-top:auto;
 }
 
 @media(max-width:768px){
